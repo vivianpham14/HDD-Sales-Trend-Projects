@@ -38,6 +38,13 @@ Each tab in the hdd_sales.xlsx file was saved as separate CSV files. In MySQL Wo
       
 - **ER Diagram:** Created relationships between each table to show the connection, verify the correct data type classification is used for the respective columns, and determine the primary/foreign keys for each table prior to import to Tableau:
 
+<br>
+
+![image alt](https://github.com/vivianpham14/HDD-Sales-Trend-Projects/blob/04b45aa536b860baf62ca39ed099e5b053b122be/data%20files/ER_Diagram.png)
+
 ## 4. Analytics and Visualizations
-A connection between MySQL Workbench and Tableau was needed to utilize Tableau for visualizations. Once installed, another step is performed to ensure each column has the right data type classification. Each table has to connect with at least one other table to be included in the analysis. 
- 
+A connection between MySQL Workbench and Tableau was needed to utilize Tableau for visualizations. Once installed, another step is performed to ensure each column has the right data type classification. The classification needs to be streamlined in every table in order to properly connect with at least one other table. 
+
+<br>
+
+![image alt](https://github.com/vivianpham14/HDD-Sales-Trend-Projects/blob/04b45aa536b860baf62ca39ed099e5b053b122be/data%20files/tableau_connection.png)

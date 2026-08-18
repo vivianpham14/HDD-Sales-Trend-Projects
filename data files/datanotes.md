@@ -9,7 +9,7 @@ ChatGPT was used to apply parameters for synthetic sales datasets that attempt t
 - ```HDD_Products:``` Record of 20 items used as an index for product information such as product ID, product name, product category,and color
 
 ## 2. Data Cleaning & Validation
-Although ChatGPT was utilized to create the dataset, each dataset required additional cleaning and analysis in Excel to ensure consistency across all datasets. Refer to the [hdd_sales.xlsx](hdd_sales.xlsx) file to review the work performed.
+Although ChatGPT was utilized to create the dataset, each dataset required additional cleaning and analysis in Excel to ensure consistency across all datasets. Refer to the [Excel file](hdd_sales.xlsx) for the work performed.
 
 - **Row count and reconciliation to MySQL import:** This step helped ensured completeness of the data during and after importing.
     - validation occurred in all tabs:*hdd_orders*, *customer_table*, *hdd_products* (refer to the bottom right corner of each tab for the reconciliation performed)
@@ -30,7 +30,7 @@ Although ChatGPT was utilized to create the dataset, each dataset required addit
     - validation occurred in *hdd_products* tab, column I
 
 ## 3. Import Data to MySQL Workbench
-Each tab in the hdd_sales.xlsx file was saved as separate CSV files. In MySQL Workbench, the database and tables were created to import the respective CSV files. Refer to the code retained at [hdd_sales_data_MySQLCode.sql](hdd_sales_data_MySQLCode.sql).
+Each tab in the hdd_sales.xlsx file was saved as separate CSV files. In MySQL Workbench, the database and tables were created to import the respective CSV files. Refer to the [MySQL Workbench code](hdd_sales_data_MySQLCode.sql) retained.
 - **Row Count:** This function is used to count the number of rows that were imported and manually reconciled to the raw data in Excel: 
   - *SELECT COUNT(*) AS total_rows FROM hdd_sales_data.customer_data;* 
   - *SELECT COUNT(*) AS total_rows FROM hdd_sales_data.hdd_orders;*

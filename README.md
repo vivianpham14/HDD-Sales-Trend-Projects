@@ -21,9 +21,7 @@ Insights and recommendations are summarized below with the focus on key analyses
 ## Tools & Technologies
 Synthetic data was created using ChatGPT and generated using Python code. Data cleaning and validation was performed prior to any analyses using Microsoft Excel and MySQL Workbench. Tableau was utilized for dashboard visualization of key findings and analysis. 
 
-<br>
-
-Refer to the process documented in detail at [*datanotes.md*](https://github.com/vivianpham14/HDD-Sales-Trend-Projects/blob/main/data%20files/datanotes.md).
+Refer to the [data notes](https://github.com/vivianpham14/HDD-Sales-Trend-Projects/blob/main/data%20files/datanotes.md) for the data cleaning and validation process documented in detail.
 
 ## Executive Summary
 Ducky Co. Hard Drive’s concluded FY24 with a total of 5,000 orders approximating $2.7M in sales. 50% of the company’s sales were primarily driven by enterprise customers and mostly comprised of one-time purchases. As this is the company’s first year in business, the following sections will explore the data with added context and highlight opportunities for improvement. 

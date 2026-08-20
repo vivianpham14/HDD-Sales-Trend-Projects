@@ -1,4 +1,4 @@
-# Ducky Co. Hard Drives - Revenue Key Findings
+# Ducky Co. Hard Drives - Year-End Sales Review and Analysis
 
 > [!NOTE]
 > This personal project was created using synthetic data to mirror what has been observed in companies within the industry, adding another layer of complexity and data cleaning. Refer to *Tools & Technologies* section for more information.
